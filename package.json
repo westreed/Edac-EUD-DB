@@ -1,4 +1,5 @@
 {
+  "homepage": "https://westreed.github.io/edac-eud-db/",
   "name": "edac-eud-db",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -16,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build & copy C:\\Programming\\React\\edac-eud-db\\build\\index.html C:\\Programming\\React\\edac-eud-db\\build\\404.html"
   },
   "eslintConfig": {
     "extends": [

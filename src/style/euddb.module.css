@@ -1,0 +1,18 @@
+
+.table {
+    display: flex;
+    flex-direction: row;
+    border-bottom: dimgray solid 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.content {
+    word-wrap: anywhere;
+}
