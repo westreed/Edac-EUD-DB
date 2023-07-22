@@ -3,10 +3,12 @@ import style from "../style/euddb.module.css";
 import {useTranslation} from "react-i18next";
 import TopButton from "../components/topButton";
 import DownButton from "../components/downButton";
+import {useState} from "react";
+
 
 function EUDDB(){
     const {t} = useTranslation();
-    const header_rate = [7,7,7,20,5,5,8,41];
+    const header_rate = [7,7,7,20,5,5,9,40];
 
     function content_style(index) {
         if (index === 7) {
@@ -22,6 +24,28 @@ function EUDDB(){
         return {};
     }
 
+    function ContentItem({index, item}){
+    const [isExpand, setIsExpand] = useState(false);
+
+    function clickHandler(){
+        setIsExpand(!isExpand);
+    }
+
+    return (
+            isExpand === false ?
+            <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
+                <div key={index2} className={`${style.content}`} style={content_style(index2)}>
+                    {item2}
+                </div>
+            )}</div> :
+            <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
+                <div key={index2} className={`${style.content_wrap}`} style={content_style(index2)}>
+                    {item2.split("\n").map((line, index3) => {return (<span key={`${index3}${line}`}>{line}<br/></span>)})}
+                </div>
+            )}</div>
+    );
+}
+
 
     return(
         <div className="container">
@@ -31,9 +55,7 @@ function EUDDB(){
                 )}
             </div>
             {euddb.content.map((item, index) =>
-                <div key={index} className={`${style.table}`} style={is_last_row(index)}>{item.map((item2, index2) =>
-                    <div key={index2} className={`${style.content}`} style={content_style(index2)}>{item2.split("\n").map((line, index3) => {return (<span key={`${index3}${line}`}>{line}<br/></span>)})}</div>
-                )}</div>
+                <ContentItem key={index} index={index} item={item}/>
             )}
             <TopButton/>
             <DownButton/>
@@ -42,3 +64,6 @@ function EUDDB(){
 }
 
 export default EUDDB;
+
+//<div key={index2} className={`${style.content}`} style={content_style(index2)}>{item2}</div>
+//<div key={index2} className={`${style.content}`} style={content_style(index2)}>{item2.split("\n").map((line, index3) => {return (<span key={`${index3}${line}`}>{line}<br/></span>)})}</div>

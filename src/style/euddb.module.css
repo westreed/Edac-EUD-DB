@@ -14,5 +14,20 @@
 }
 
 .content {
+    white-space: nowrap; /* 텍스트가 한 줄에 표시되도록 함 */
+    overflow: hidden; /* 넘치는 텍스트를 숨기기 위해 오버플로우 설정 */
+    text-overflow: ellipsis; /* 텍스트가 컨테이너를 벗어났을 때 ...으로 표시 */
+}
+
+.content_wrap {
     word-wrap: anywhere;
+}
+
+.content_animation {
+    color: var(--font-color);
+    transition: all 0.3s;
+}
+
+.content_animation:hover {
+    color: #8695c9;
 }
