@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* 600px보다 크고 1200px 이하인 경우 */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* 1200px보다 큰 경우 */
+@media screen and (min-width: 1201px) {
+  body {
+    font-size: 16px;
+  }
+}

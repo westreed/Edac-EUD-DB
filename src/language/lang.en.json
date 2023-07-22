@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "language": "Language",
+    "navbar": {
+      "database": "Database",
+      "cunit": "CUnit",
+      "about": "About"
+    },
+    "database": {
+      "address": "Address",
+      "player": "Player ID",
+      "version": "Version",
+      "name": "Name",
+      "size": "Size",
+      "length": "Length",
+      "scr": "SC:R",
+      "description": "Description"
+    },
+    "about": {
+      "title": "About",
+      "content1": "I created this website because the operation of EUDDB site is sometimes unstable,",
+      "content2": "and I believe that utilizing the features provided by GitHub would allow me to offer a cost-free and reliable service.",
+      "content3": "Currently, the data in the database is directly sourced from EUDDB.",
+      "content4": "Developer: 갈대  Original: FaRTy1billion"
+    }
+  }
+}

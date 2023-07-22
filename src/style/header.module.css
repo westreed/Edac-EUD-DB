@@ -4,4 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 7em;
+    font-size: 0.9em;
 }

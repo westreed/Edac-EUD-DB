@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "language": "Language",
+    "navbar": {
+      "database": "데이터베이스",
+      "cunit": "구조오프셋",
+      "about": "소개"
+    },
+    "database": {
+      "address": "주소",
+      "player": "플레이어값",
+      "version": "버전",
+      "name": "이름",
+      "size": "크기",
+      "length": "길이",
+      "scr": "SC:R",
+      "description": "설명"
+    },
+    "about": {
+      "title": "소개",
+      "content1": "EUDDB 사이트의 운영이 불안정하기도 하고, Github에서 제공해주는 기능을 활용하면",
+      "content2": "비용이 없고 안정적인 서비스를 제공할 수 있을 것 같아서 만들었습니다.",
+      "content3": "현재 데이터베이스의 자료들은 EUDDB에서 제공하는 데이터를 그대로 사용하고 있습니다.",
+      "content4": "제작: 갈대 │ 원작자: FaRTy1billion"
+    }
+  }
+}

@@ -1,13 +1,13 @@
 {
     "header": [
-        "Address",
-        "Player ID",
-        "Version",
-        "Name",
-        "Size",
-        "Length",
-        "SCR",
-        "Description"
+        "address",
+        "player",
+        "version",
+        "name",
+        "size",
+        "length",
+        "scr",
+        "description"
     ],
     "content": [
         [

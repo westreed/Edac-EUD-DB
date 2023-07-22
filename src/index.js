@@ -2,8 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import EUDDB from './pages/euddb';
-import './style/index.css';
+import About from "./pages/about";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {RecoilRoot} from "recoil";
+
+import './language/i18n';
+import './style/index.css';
+import './style/responsive-font.css';
 
 export default function Index() {
     const router = createBrowserRouter([
@@ -11,15 +16,18 @@ export default function Index() {
             path: "/", element: <App />,
             children: [
                 {path: "/", element: <EUDDB />},
+                {path: "/about", element: <About />}
             ],
         },
     ], {basename: process.env.PUBLIC_URL});
 
-      return(
-          <div>
-              <RouterProvider router={router}/>
-          </div>
-      )
+    return(
+        <div>
+            <RecoilRoot>
+                <RouterProvider router={router}/>
+            </RecoilRoot>
+        </div>
+    )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
