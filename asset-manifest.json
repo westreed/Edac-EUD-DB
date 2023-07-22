@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/westreed/edac-eud-db/static/css/main.073c9b0a.css",
-    "main.js": "/westreed/edac-eud-db/static/js/main.5dfcc378.js",
-    "static/js/787.2bdf357a.chunk.js": "/westreed/edac-eud-db/static/js/787.2bdf357a.chunk.js",
-    "static/media/logo.svg": "/westreed/edac-eud-db/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/westreed/edac-eud-db/index.html",
-    "main.073c9b0a.css.map": "/westreed/edac-eud-db/static/css/main.073c9b0a.css.map",
-    "main.5dfcc378.js.map": "/westreed/edac-eud-db/static/js/main.5dfcc378.js.map",
-    "787.2bdf357a.chunk.js.map": "/westreed/edac-eud-db/static/js/787.2bdf357a.chunk.js.map"
+    "main.css": "/westreed/edac-eud-db/tree/gh-pages/static/css/main.073c9b0a.css",
+    "main.js": "/westreed/edac-eud-db/tree/gh-pages/static/js/main.9dcdaeeb.js",
+    "static/js/787.2bdf357a.chunk.js": "/westreed/edac-eud-db/tree/gh-pages/static/js/787.2bdf357a.chunk.js",
+    "static/media/logo.svg": "/westreed/edac-eud-db/tree/gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/westreed/edac-eud-db/tree/gh-pages/index.html",
+    "main.073c9b0a.css.map": "/westreed/edac-eud-db/tree/gh-pages/static/css/main.073c9b0a.css.map",
+    "main.9dcdaeeb.js.map": "/westreed/edac-eud-db/tree/gh-pages/static/js/main.9dcdaeeb.js.map",
+    "787.2bdf357a.chunk.js.map": "/westreed/edac-eud-db/tree/gh-pages/static/js/787.2bdf357a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5dfcc378.js"
+    "static/js/main.9dcdaeeb.js"
   ]
 }
