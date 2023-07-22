@@ -25,26 +25,26 @@ function EUDDB(){
     }
 
     function ContentItem({index, item}){
-    const [isExpand, setIsExpand] = useState(false);
+        const [isExpand, setIsExpand] = useState(false);
 
-    function clickHandler(){
-        setIsExpand(!isExpand);
+        function clickHandler(){
+            setIsExpand(!isExpand);
+        }
+
+        return (
+                isExpand === false ?
+                <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
+                    <div key={index2} className={`${style.content}`} style={content_style(index2)}>
+                        {item2}
+                    </div>
+                )}</div> :
+                <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
+                    <div key={index2} className={`${style.content_wrap}`} style={content_style(index2)}>
+                        {item2.split("\n").map((line, index3) => {return (<span key={`${index3}${line}`}>{line}<br/></span>)})}
+                    </div>
+                )}</div>
+        );
     }
-
-    return (
-            isExpand === false ?
-            <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
-                <div key={index2} className={`${style.content}`} style={content_style(index2)}>
-                    {item2}
-                </div>
-            )}</div> :
-            <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
-                <div key={index2} className={`${style.content_wrap}`} style={content_style(index2)}>
-                    {item2.split("\n").map((line, index3) => {return (<span key={`${index3}${line}`}>{line}<br/></span>)})}
-                </div>
-            )}</div>
-    );
-}
 
 
     return(

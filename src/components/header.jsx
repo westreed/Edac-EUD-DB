@@ -26,7 +26,9 @@ function Header(){
                     <button className={`clear_button ${style.nav}`} onClick={() => navigate("")}>{t('navbar.database')}</button>
                     <button className={`clear_button ${style.nav}`}>{t('navbar.cunit')}</button>
                 </div>
-                <button className={`clear_button`} onClick={switchLanguage}>{t('language')} {languageText[i18n.resolvedLanguage]}</button>
+                <button className={`clear_button ${style.language_switch}`} onClick={switchLanguage}>
+                    {t('language')} {languageText[i18n.resolvedLanguage]}
+                </button>
             </div>
         </div>
     );
