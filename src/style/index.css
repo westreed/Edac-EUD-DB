@@ -68,14 +68,14 @@ a:hover {
 .scroll_up{
   position: fixed;
   right: 5%;
-  bottom: 10%;
+  bottom: 100px;
   z-index: 1;
 }
 
 .scroll_down{
   position: fixed;
   right: 5%;
-  bottom: 5%;
+  bottom: 50px;
   z-index: 1;
 }
 

@@ -21,6 +21,7 @@
 
 .content_wrap {
     word-wrap: anywhere;
+    white-space: pre-wrap;
 }
 
 .content_animation {
