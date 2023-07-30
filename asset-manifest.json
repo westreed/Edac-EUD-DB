@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/edac-eud-db/static/css/main.04a4a604.css",
-    "main.js": "/edac-eud-db/static/js/main.78fc1861.js",
+    "main.css": "/edac-eud-db/static/css/main.adfa24ec.css",
+    "main.js": "/edac-eud-db/static/js/main.7695ce3b.js",
     "index.html": "/edac-eud-db/index.html",
-    "main.04a4a604.css.map": "/edac-eud-db/static/css/main.04a4a604.css.map",
-    "main.78fc1861.js.map": "/edac-eud-db/static/js/main.78fc1861.js.map"
+    "main.adfa24ec.css.map": "/edac-eud-db/static/css/main.adfa24ec.css.map",
+    "main.7695ce3b.js.map": "/edac-eud-db/static/js/main.7695ce3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a4a604.css",
-    "static/js/main.78fc1861.js"
+    "static/css/main.adfa24ec.css",
+    "static/js/main.7695ce3b.js"
   ]
 }
