@@ -3,7 +3,6 @@ import style from "../style/euddb.module.css";
 import {useTranslation} from "react-i18next";
 import TopButton from "../components/topButton";
 import DownButton from "../components/downButton";
-import {useState} from "react";
 
 
 function EUDDB(){
@@ -25,14 +24,8 @@ function EUDDB(){
   }
 
   function ContentItem({index, item}){
-    const [isExpand, setIsExpand] = useState(false);
-
-    function clickHandler(){
-      setIsExpand(!isExpand);
-    }
-
     return (
-      <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)} onClick={clickHandler}>{item.map((item2, index2) =>
+      <div key={index} className={`${style.content_animation} ${style.table}`} style={is_last_row(index)}>{item.map((item2, index2) =>
         <div key={index2} className={`${style.content_wrap}`} style={content_align_style(index2)}>{item2}</div>
       )}</div>
     );

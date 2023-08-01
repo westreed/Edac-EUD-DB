@@ -22,6 +22,12 @@
       "content2": "and I believe that utilizing the features provided by GitHub would allow me to offer a cost-free and reliable service.",
       "content3": "Currently, the data in the database is directly sourced from EUDDB.",
       "content4": "Developer: 갈대  Original: FaRTy1billion"
+    },
+    "cunit": {
+      "offset": "Offset",
+      "type": "Type",
+      "name": "Name",
+      "description": "Description"
     }
   }
 }

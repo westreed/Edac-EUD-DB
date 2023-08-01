@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import EUDDB from './pages/euddb';
 import About from "./pages/about";
+import CUnit from "./pages/cunit";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {RecoilRoot} from "recoil";
 
@@ -16,7 +17,8 @@ export default function Index() {
             path: "/", element: <App />,
             children: [
                 {path: "/", element: <EUDDB />},
-                {path: "/about", element: <About />}
+                {path: "/about", element: <About />},
+                {path: "/cunit", element: <CUnit />},
             ],
         },
     ], {basename: process.env.PUBLIC_URL});

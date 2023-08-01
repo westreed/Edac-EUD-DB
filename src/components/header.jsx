@@ -22,9 +22,9 @@ function Header(){
     <div className={`${style.header}`}>
       <div className={`flex_row`} style={{maxWidth:"1400px", alignContent:"space-between"}}>
         <div className={`flex_row`}>
-          <button className={`clear_button ${style.nav}`} onClick={() => navigate("about")}>{t('navbar.about')}</button>
-          <button className={`clear_button ${style.nav}`} onClick={() => navigate("")}>{t('navbar.database')}</button>
-          <button className={`clear_button ${style.nav}`}>{t('navbar.cunit')}</button>
+          <button className={`clear_button ${style.nav}`} onClick={() => navigate("/about")}>{t('navbar.about')}</button>
+          <button className={`clear_button ${style.nav}`} onClick={() => navigate("/")}>{t('navbar.database')}</button>
+          <button className={`clear_button ${style.nav}`} onClick={() => navigate("/cunit")}>{t('navbar.cunit')}</button>
         </div>
         <button className={`clear_button ${style.language_switch}`} onClick={switchLanguage}>
           {t('language')} {languageText[i18n.resolvedLanguage]}
