@@ -3,9 +3,11 @@ import style from "../style/euddb.module.css";
 import {useTranslation} from "react-i18next";
 import TopButton from "../components/topButton";
 import DownButton from "../components/downButton";
+import {useTitle} from "../utils/useTitle";
 
 
 function EUDDB(){
+  useTitle("EUD Database: EUDDB");
   const {t} = useTranslation();
   const header_rate = [7,7,7,20,5,5,9,40];
 

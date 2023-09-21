@@ -26,7 +26,7 @@ export default function Index() {
     return(
         <div>
             <RecoilRoot>
-                <RouterProvider router={router}/>
+                <RouterProvider router={router} />
             </RecoilRoot>
         </div>
     )

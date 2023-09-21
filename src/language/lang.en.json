@@ -17,11 +17,13 @@
       "description": "Description"
     },
     "about": {
-      "title": "About",
-      "content1": "I created this website because the operation of EUDDB site is sometimes unstable,",
-      "content2": "and I believe that utilizing the features provided by GitHub would allow me to offer a cost-free and reliable service.",
-      "content3": "Currently, the data in the database is directly sourced from EUDDB.",
-      "content4": "Developer: 갈대  Original: FaRTy1billion"
+      "title": "EUD Database?",
+      "content1": "I created this website because the operation of EUDDB site is sometimes unstable, and I believe that utilizing the features provided by GitHub would allow me to offer a cost-free and reliable service. Currently, the data in the database is directly sourced from EUDDB.",
+      "content2": "Developer: 갈대 | Original: FaRTy1billion",
+      "update": "Upcoming Update",
+      "update_content1": "1. Add functionality to view the internal structure of a Union, such as 0xDC in CUnit.",
+      "update_content2": "2. Translate the EUD Offset and the CUnit according to the selected language.",
+      "update_content3": "3. However, it seems like it will be updated quite a while later. \uD83D\uDE04"
     },
     "cunit": {
       "offset": "Offset",
