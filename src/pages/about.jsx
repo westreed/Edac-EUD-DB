@@ -39,6 +39,7 @@ function About(){
           <div style={{marginBottom:"10px"}}>{t(`about.update_content1`)}</div>
           <div style={{marginBottom:"10px"}}>{t(`about.update_content2`)}</div>
           <div style={{marginBottom:"10px"}}>{t(`about.update_content3`)}</div>
+          <div style={{marginBottom:"10px"}}>{t(`about.update_content4`)}</div>
         </div>
         <img src={update} alt="update"/>
       </div>

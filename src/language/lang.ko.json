@@ -23,7 +23,8 @@
       "update": "다음 업데이트 예정",
       "update_content1": "1. 구조오프셋에서 0xDC와 같은 Union 구조체 내부 구조도 확인할 수 있도록 기능 추가.",
       "update_content2": "2. 선택된 언어에 맞춰서 EUD Offset과 구조오프셋 내용 전부 번역.",
-      "update_content3": "3. 그런데 아마 한참 뒤에 업데이트 될 것 같습니다. \uD83D\uDE04"
+      "update_content3": "3. 구조오프셋 파트는 아르타니스님의 CUnit 멤버와도 연결하여 표기.",
+      "update_content4": "4. 그런데 아마 한참 뒤에 업데이트 될 것 같습니다. \uD83D\uDE04"
     },
     "cunit": {
       "offset": "오프셋",

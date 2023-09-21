@@ -23,7 +23,8 @@
       "update": "Upcoming Update",
       "update_content1": "1. Add functionality to view the internal structure of a Union, such as 0xDC in CUnit.",
       "update_content2": "2. Translate the EUD Offset and the CUnit according to the selected language.",
-      "update_content3": "3. However, it seems like it will be updated quite a while later. \uD83D\uDE04"
+      "update_content3": "3. CUnit section is referred to in association with Artanis's CUnit Object.",
+      "update_content4": "4. However, it seems like it will be updated quite a while later. \uD83D\uDE04"
     },
     "cunit": {
       "offset": "Offset",
