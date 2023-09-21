@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/edac-eud-db/static/css/main.5b0c2220.css",
-    "main.js": "/edac-eud-db/static/js/main.c69b8e8e.js",
+    "main.css": "/edac-eud-db/static/css/main.03db4d8e.css",
+    "main.js": "/edac-eud-db/static/js/main.b1ab1544.js",
+    "static/media/sc.png": "/edac-eud-db/static/media/sc.93838681e5e8ec54c191.png",
+    "static/media/update.png": "/edac-eud-db/static/media/update.efdffc7628308bf9c26e.png",
     "index.html": "/edac-eud-db/index.html",
-    "main.5b0c2220.css.map": "/edac-eud-db/static/css/main.5b0c2220.css.map",
-    "main.c69b8e8e.js.map": "/edac-eud-db/static/js/main.c69b8e8e.js.map"
+    "main.03db4d8e.css.map": "/edac-eud-db/static/css/main.03db4d8e.css.map",
+    "main.b1ab1544.js.map": "/edac-eud-db/static/js/main.b1ab1544.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b0c2220.css",
-    "static/js/main.c69b8e8e.js"
+    "static/css/main.03db4d8e.css",
+    "static/js/main.b1ab1544.js"
   ]
 }
